@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Memories</string>
+    <string name="kullaniciAdi" translatable="false">Username</string>
+    <string name="kullaniciAdi1" translatable="false">Username1</string>
+    <string name="kullaniciAdi2" translatable="false">Username2</string>
+    <string name="kullaniciAdi3" translatable="false">Username3</string>
+    <string name="begenmeSayisi">1020 likes</string>
+    <string name="ilkYorum">You\'re burning it bro</string>
+    <string name="ikinciYorum">Man, look at the beauty of this photo</string>
+    <string name="ucuncuYorum">I follow you with love</string>
+
+</resources>
