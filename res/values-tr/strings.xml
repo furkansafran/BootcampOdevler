@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Anılar</string>
+    <string name="kullaniciAdi">KullaniciAdi</string>
+    <string name="kullaniciAdi1">kullaniciAdi1</string>
+    <string name="kullaniciAdi2">kullaniciAdi2</string>
+    <string name="kullaniciAdi3">kullaniciAdi3</string>
+    <string name="begenmeSayisi">1020 beğeni</string>
+    <string name="ilkYorum">Yakıyorsun kardeşim !</string>
+    <string name="ikinciYorum">Adamım ,şu fotoğrafın güzelliğine bak</string>
+    <string name="ucuncuYorum">Seni takip etmeyi seviyorum </string>
+
+</resources>
