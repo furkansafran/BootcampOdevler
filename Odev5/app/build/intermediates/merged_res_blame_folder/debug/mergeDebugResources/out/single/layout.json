@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.furkansafran.odev5.app-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.furkansafran.odev5.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.furkansafran.odev5.app-mergeDebugResources-32:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.furkansafran.odev5.app-main-35:\\layout\\activity_main.xml"
+    }
+]
