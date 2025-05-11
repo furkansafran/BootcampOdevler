@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:icon="@drawable/home_selector" />
+    <item android:icon="@drawable/search_24px" />
+    <item android:icon="@drawable/library_selector" />
+    <item android:icon="@drawable/person_selector" />
+
+</menu>
