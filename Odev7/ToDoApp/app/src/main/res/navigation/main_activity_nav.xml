@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.furkansafran.todoapp.ui.fragments.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/anasayfaToKayit"
+            app:destination="@id/kayitFragment" />
+        <action
+            android:id="@+id/anasayfaToDetay"
+            app:destination="@id/detayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detayFragment"
+        android:name="com.furkansafran.todoapp.ui.fragments.DetayFragment"
+        android:label="fragment_detay"
+        tools:layout="@layout/fragment_detay" >
+        <action
+            android:id="@+id/detayToAnasayfa"
+            app:destination="@id/anasayfaFragment" />
+        <argument
+            android:name="toDo"
+            app:argType="com.furkansafran.todoapp.data.entity.ToDos" />
+    </fragment>
+    <fragment
+        android:id="@+id/kayitFragment"
+        android:name="com.furkansafran.todoapp.ui.fragments.KayitFragment"
+        android:label="fragment_kayit"
+        tools:layout="@layout/fragment_kayit" >
+        <action
+            android:id="@+id/kayitToAnasayfa"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+</navigation>
